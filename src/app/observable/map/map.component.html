@@ -1,0 +1,36 @@
+<div class="my-3">
+  <h2>Map</h2>
+  <br />
+  <div class="row">
+    <div class="col-md-4">
+      <strong> Ex - 01</strong>
+      <hr />
+      <p>
+        <strong>Map</strong>
+        Map Data => Video + data
+      </p>
+      <br />
+      <p class="text-success">data comming here... {{ msg1 }}</p>
+    </div>
+    <div class="col-md-4">
+      <strong> Ex - 02</strong>
+      <hr />
+      <p>
+        <strong>Map</strong>
+        Map Data
+      </p>
+      <br />
+      <p class="text-danger">data comming here... {{ msg2 }}</p>
+    </div>
+    <div class="col-md-4">
+      <strong> Ex - 03</strong>
+      <hr />
+      <p>
+        <strong>Map</strong>
+        Map Data
+      </p>
+      <br />
+      <p *ngFor="let item of msg3">{{ item }}</p>
+    </div>
+  </div>
+</div>

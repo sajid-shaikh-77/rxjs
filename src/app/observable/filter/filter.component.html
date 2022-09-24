@@ -1,0 +1,40 @@
+<div class="my-3">
+  <h2>Filter</h2>
+  <br />
+  <div class="row">
+    <div class="col-md-4">
+      <strong> Ex - 01</strong>
+      <hr />
+      <p>
+        <strong>Filter</strong>
+        Filter Data => by length
+      </p>
+      <br />
+      <p *ngFor="let item of example1">{{ item.id }} | {{ item.name }}</p>
+    </div>
+    <div class="col-md-4">
+      <strong> Ex - 02 Nested</strong>
+      <hr />
+      <p>
+        <strong>Filter</strong>
+        Filter Data by Gender
+      </p>
+      <br />
+      <p *ngFor="let item of example2">
+        {{ item.id }} | {{ item.name }} | {{ item.gender }}
+      </p>
+    </div>
+    <div class="col-md-4">
+      <strong> Ex - 03</strong>
+      <hr />
+      <p>
+        <strong>Filter</strong>
+        Filter Data limited
+      </p>
+      <br />
+      <p *ngFor="let item of example3">
+        {{ item.id }} | {{ item.name }} | {{ item.gender }}
+      </p>
+    </div>
+  </div>
+</div>

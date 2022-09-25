@@ -9,6 +9,7 @@ import { IntervalComponent } from './observable/interval/interval.component';
 import { MapComponent } from './observable/map/map.component';
 import { ObservableComponent } from './observable/observable.component';
 import { PluckComponent } from './observable/pluck/pluck.component';
+import { ReplaySubjectComponent } from './observable/replay-subject/replay-subject.component';
 import { RetryComponent } from './observable/retry/retry.component';
 import { SubjectComponent } from './observable/subject/subject.component';
 import { TabComponent } from './observable/tab/tab.component';
@@ -72,6 +73,10 @@ const routes: Routes = [
       {
         path: 'subject',
         component: SubjectComponent,
+      },
+      {
+        path: 'replay-subject',
+        component: ReplaySubjectComponent,
       },
     ],
   },

@@ -1,0 +1,47 @@
+<div class="my-3">
+  <h2>Concat</h2>
+  <br /><br />
+  <div class="row">
+    <div class="col-md-4">
+      <strong> Source- 01</strong>
+      <hr />
+      <p>
+        <strong>Tech Video List: </strong>
+        1,2,3,4,5
+      </p>
+      <br />
+    </div>
+    <div class="col-md-4">
+      <strong> Source - 02</strong>
+      <hr />
+      <p>
+        <strong>Comedy Video List:</strong>
+        1,2,3
+      </p>
+      <br />
+    </div>
+    <div class="col-md-4">
+      <strong> Source - 03</strong>
+      <hr />
+      <p>
+        <strong>News Video List:</strong>
+        1,2,3,4
+      </p>
+      <br />
+      <p>...</p>
+    </div>
+  </div>
+  <hr />
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">Your Chennel (Subscriber)</div>
+        <div class="card-body">
+          <ul *ngFor="let item of finalResult">
+            <li>{{ item }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
